@@ -1,32 +1,45 @@
 {
-  "accounts": [
+  "users": [
     {
       "id": 1,
-      "username": "test",
-      "password": "test"
+      "username": "admin",
+      "password": "haslo",
+      "email": "admin@test.pl",
+      "roles": [
+        "ROLE_ADMIN"
+      ]
     },
     {
       "id": 2,
-      "username": "test1",
-      "password": "test1"
+      "username": "user1",
+      "password": "haslo",
+      "email": "user1@test.pl",
+      "roles": [
+        "ROLE_USER"
+      ]
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "password": "haslo",
+      "email": "user2b@test.pl",
+      "roles": [
+        "ROLE_MODERATOR"
+      ]
     }
   ],
-  "promotions": [
+  "roles": [
     {
       "id": 1,
-      "name": "Promocja internet",
-      "duration": "24 miesiące",
-      "int": true,
-      "tv": false,
-      "price": "50 zł"
+      "role": "ROLE_ADMIN"
     },
     {
       "id": 2,
-      "name": "Promocja internet + telewizja",
-      "duration": "24 miesiące",
-      "int": true,
-      "tv": true,
-      "price": "80 zł"
+      "role": "ROLE_USER"
+    },
+    {
+      "id": 3,
+      "role": "ROLE_MODERATOR"
     }
   ]
 }
