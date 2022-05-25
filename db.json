@@ -1,16 +1,19 @@
 {
   "accounts": [
     {
+      "id": 1,
       "username": "test",
       "password": "test"
   },
     {
+      "id": 2,
       "username": "test1",
       "password": "test1"
     }
   ],
   "promotions": [
     {
+      "id": 1,
       "name": "Promocja internet",
       "duration": "24 miesiące",
       "int": true,
@@ -18,6 +21,7 @@
       "price": "50 zł"
     },
     {
+      "id": 2,
       "name": "Promocja internet + telewizja",
       "duration": "24 miesiące",
       "int": true,
