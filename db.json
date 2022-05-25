@@ -1,0 +1,28 @@
+{
+  "accounts": [
+    {
+      "username": "test",
+      "password": "test"
+  },
+    {
+      "username": "test1",
+      "password": "test1"
+    }
+  ],
+  "promotions": [
+    {
+      "name": "Promocja internet",
+      "duration": "24 miesiące",
+      "int": true,
+      "tv": false,
+      "price": "50 zł"
+    },
+    {
+      "name": "Promocja internet + telewizja",
+      "duration": "24 miesiące",
+      "int": true,
+      "tv": true,
+      "price": "80 zł"
+    }
+  ]
+}
